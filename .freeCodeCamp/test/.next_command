@@ -112,3 +112,8 @@ psql --username=freecodecamp --dbname=worldcup -c "SELECT expected_output.txt ga
 psql --username=freecodecamp --dbname=worldcup < worldcup.sql
 psql --username=freecodecamp --dbname=worldcup -c "TRUNCATE TABLE games, teams RESTART IDENTITY CASCADE;"
 PSQL="psql --username=freecodecamp --dbname=worldcup -t --no-align -c"
+clear
+git init
+git remote add origin https://github.com/jabezapilado/worldcup_db.git
+git remote -v
+git add .
